@@ -3,8 +3,8 @@
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
-  "projectName": "al-folio",
-  "projectOwner": "alshedivat",
+  "projectName": "lucifer-dev",
+  "projectOwner": "Sour-abh-Raj",
   "repoType": "github",
   "repoHost": "https://github.com",
   "badgeTemplate": "[core_contributors]: https://img.shields.io/badge/core_contributors-<%= contributors.length %>-orange.svg 'Number of core contributors'",
@@ -12,10 +12,10 @@
   "skipCi": true,
   "contributors": [
     {
-      "login": "alshedivat",
+      "login": "Sour-abh-Raj",
       "name": "Maruan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2126561?v=4",
-      "profile": "http://maruan.alshedivat.com",
+      "profile": "http://maruan.Sour-abh-Raj.com",
       "contributions": ["design", "code"]
     },
     {

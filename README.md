@@ -29,7 +29,7 @@ This is a blog built with Jekyll. It is hosted on GitHub Pages.
 
 ## Theme
 
-- [al-folio](https://github.com/alshedivat/al-folio)
+- [lucifer-dev](https://github.com/Sour-abh-Raj/lucifer-dev)
 
 ## Path
 

@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-Here are some frequently asked questions. If you have a different question, please check if it was not already answered in the Q&A section of the [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions/categories/q-a). If not, feel free to ask a new question there.
+Here are some frequently asked questions. If you have a different question, please check if it was not already answered in the Q&A section of the [GitHub Discussions](https://github.com/Sour-abh-Raj/lucifer-dev/discussions/categories/q-a). If not, feel free to ask a new question there.
 
 - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
 - [I am using a custom domain (e.g., `foo.com`). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
@@ -14,19 +14,19 @@ Here are some frequently asked questions. If you have a different question, plea
 
 #### After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?
 
-Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit. Please make some changes (e.g., change your website info in `_config.yml`), commit, and push. Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment). (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit. Please make some changes (e.g., change your website info in `_config.yml`), commit, and push. Make sure to follow [deployment instructions](https://github.com/Sour-abh-Raj/lucifer-dev#deployment). (Relevant issue: [209](https://github.com/Sour-abh-Raj/lucifer-dev/issues/209#issuecomment-798849211).)
 
 #### I am using a custom domain (e.g., `foo.com`). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?
 
-You need to add `CNAME` file to the `master` or `source` branch of your repository. The file should contain your custom domain name. (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
+You need to add `CNAME` file to the `master` or `source` branch of your repository. The file should contain your custom domain name. (Relevant issue: [130](https://github.com/Sour-abh-Raj/lucifer-dev/issues/130).)
 
 #### My webpage works locally. But after deploying, it fails to build and throws `Unknown tag 'toc'`. How do I fix that?
 
-Make sure you followed through the [deployment instructions](#deployment) in the previous section. You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
+Make sure you followed through the [deployment instructions](#deployment) in the previous section. You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/Sour-abh-Raj/lucifer-dev/issues/1438).)
 
 #### My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS is not loaded properly). How do I fix that?
 
-Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain. If you are deploying a personal or organization website, leave `baseurl` blank. If you are deploying a project page, set `baseurl: /<your-project-name>/`. If all previous steps were done correctly, all is missing is [for your browser to fetch again the site stylesheet](https://github.com/alshedivat/al-folio/issues/1398#issuecomment-1609518404).
+Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain. If you are deploying a personal or organization website, leave `baseurl` blank. If you are deploying a project page, set `baseurl: /<your-project-name>/`. If all previous steps were done correctly, all is missing is [for your browser to fetch again the site stylesheet](https://github.com/Sour-abh-Raj/lucifer-dev/issues/1398#issuecomment-1609518404).
 
 #### Atom feed doesn't work. Why?
 
