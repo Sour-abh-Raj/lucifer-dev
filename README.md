@@ -31,7 +31,9 @@ This is a blog built with Jekyll. It is hosted on GitHub Pages.
 
 - [al-folio](https://github.com/alshedivat/al-folio)
 
-# Path: _config.yml
+## Path
+
+- [_config.yml](_config.yml)
 
 ## License
 
