@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website, blog and logger.
 footer_text: >
   <a href="https://linktr.ee/lucifer9199" target="_blank">
-    <img src="/assets/img/tag.svg" alt="@Sour-abh-Raj">
+    <img src="lucifer-dev/assets/img/tag.svg" alt="@Sour-abh-Raj">
   </a>
 keywords: jekyll, jekyll-theme, blog, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -124,7 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: lucifer-dev # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: My blog and logger. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -276,7 +276,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["log", "project", "ideas", "new", "interesting"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_categories: ["unrelated", "open-source"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
