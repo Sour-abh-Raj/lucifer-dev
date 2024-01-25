@@ -4,15 +4,13 @@
 
 title: lucifer-dev # the website title (if blank, full name will be used instead)
 first_name: Sourabh
-middle_name: blank
+middle_name: # leave blank if you don't have a middle name
 last_name: Raj
 email: sourabh1582003@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website, blog and logger.
 footer_text: >
-  <a href="https://linktr.ee/lucifer9199" target="_blank">
-    <img src="lucifer-dev/assets/img/tag.svg" alt="@Sour-abh-Raj">
-  </a>
+  <a href="https://linktr.ee/lucifer9199" target="_blank">@Sour-abh-Raj</a>
 keywords: jekyll, jekyll-theme, blog, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: tag.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -347,7 +345,8 @@ imagemagick:
     - 800
     - 1400
   input_directories:
-    - assets/img/
+    - lucifer-dev/assets/img/
+    # - assets/img/
   input_formats:
     - ".jpg"
     - ".jpeg"
