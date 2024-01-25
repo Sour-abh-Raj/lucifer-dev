@@ -4,7 +4,7 @@ title: Utthaan Official Website
 description: A website for the annual technical fest of BIT-D.
 img: assets/img/12.jpg
 importance: 1
-category: open-source
+category: work
 related_publications: true
 ---
 
