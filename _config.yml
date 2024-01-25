@@ -102,7 +102,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Hit me up. Ig : @acidcat9
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -168,10 +168,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    permalink: /news/:title/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects/:title/
 
 announcements:
   enabled: true
