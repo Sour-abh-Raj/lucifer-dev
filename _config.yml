@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: lucifer-dev # the website title (if blank, full name will be used instead)
+first_name: Sourabh
+middle_name: blank
+last_name: Raj
+email: sourabh1582003@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  My personal website, blog and logger.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/Sour-abh-Raj/lucifer-dev">lucifer-dev</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  <a href="https://linktr.ee/lucifer9199" target="_blank">
+    <img src="/assets/img/tag.svg" alt="@Sour-abh-Raj">
+  </a>
+keywords: jekyll, jekyll-theme, blog, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: "/assets/img/tag.svg" # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sour-abh-raj.github.io # the base hostname & protocol for your site
 baseurl: /lucifer-dev # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -69,15 +69,15 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Sour-abh-Raj # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: _SoUrAbH_rAj_ # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
-telegram_username: # your Telegram user name
+linkedin_username: sourabh-raj-863271168/ # your LinkedIn user name
+telegram_username: Lucifer9199 # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
-medium_username: # your Medium username
+medium_username: sourabh1582003 # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
@@ -96,8 +96,8 @@ lastfm_id: # your lastfm id
 spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
+instagram_id: acidcat9 # your instagram id
+facebook_id: lucifer9199 # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
@@ -159,7 +159,7 @@ disqus_shortname: lucifer-dev # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@lucifer-dev/feed
+    rss_url: https://medium.com/@sourabh1582003/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -275,7 +275,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
+display_tags: ["log", "project", "ideas", "new", "interesting"] # these tags will be displayed on the front page of your blog
 display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
@@ -283,8 +283,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Raj]
+  first_name: [Sourabh]
 
   style: apa
   locale: en

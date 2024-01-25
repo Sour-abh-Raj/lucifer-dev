@@ -33,7 +33,7 @@ This is a blog built with Jekyll. It is hosted on GitHub Pages.
 
 ## Path
 
-- [_config.yml](_config.yml)
+- [\_config.yml](_config.yml)
 
 ## License
 
